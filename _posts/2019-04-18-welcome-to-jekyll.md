@@ -1,29 +1,34 @@
 ---
 title: "Welcome to Jekyll!"
 date: 2019-04-18T15:34:30-04:00
+layout: card_layout
 categories:
-  - blog
+  - blog
 tags:
-  - Jekyll
-  - update
+  - Jekyll
+  - update
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<div class="card">
+  <img src="/assets/images/jekyll-logo.png" alt="Jekyll logo" />
+  <div class="card-content">
+    <h3>Hello from Jekyll</h3>
+    <p>This is a welcome post on your Jekyll site. You can edit this file in your _posts directory to get started.</p>
+  </div>
+</div>
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<div class="card">
+  <img src="/assets/images/posts-icon.png" alt="Posts icon" />
+  <div class="card-content">
+    <h3>Adding New Posts</h3>
+    <p>To add a new post, simply create a new file in the _posts directory with a YYYY-MM-DD-name-of-post.ext format.</p>
+  </div>
+</div>
 
-Jekyll also offers powerful support for code snippets:
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div class="card">
+  <img src="/assets/images/code-icon.png" alt="Code icon" />
+  <div class="card-content">
+    <h3>Code Snippets</h3>
+    <p>Jekyll offers powerful support for code snippets. Just use the standard Liquid `{% highlight %}` tag to show your code.</p>
+  </div>
+</div>
